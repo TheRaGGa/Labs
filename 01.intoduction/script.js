@@ -91,3 +91,39 @@
 
 // if (userAge > 14 || userAge > 15 || userAge > 16) 
 //     console.log('You are adult');
+
+
+let num = 77 
+let user = 'RaGGa'
+// num > 90 and user = "RaGGa"
+
+switch (num= 77) {
+    case num> 88 :
+        console.log('Your number is less than 88'); 
+    default:
+        console.log('Your number under 88');
+        break;
+}
+switch (user) {
+    case 'rashad':
+        console.log('Your users nickname is rashad');
+    default:
+        console.log('Your users nickname is Rashad');
+        break;
+}
+
+// what is result of these? 
+console.log(9 || false || 'something');
+console.log('11' && true && 'something' && null );
+console.log(undefined || false || '...');
+console.log(91 || false || true || ',.,');
+
+// operators 
+// 1. declare two variables a and b (assing 8 and '4' to them)
+// 2. sum 
+// 3. substr 
+// 4. divide 
+// 5. multiple 
+// 6. pow
+// 7. % 
+
