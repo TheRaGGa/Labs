@@ -176,16 +176,51 @@
  
 // 1.Console all values of arr4 -
 // if value is number add it 10, if value is string add to it value + is string,if is value falsy value add to it value+ is falsly value(with return word)
+//    const result = arr4.map(item => {
+//         if(typeof item === "number") {
+//            return item * 10 
+//         }else if(typeof item === "string"){
+//             return item + " is string"
+//         }else if (!item ){
+//             return item + " is false"
+//         }else{
+//             return item
+//         }
+
+
+//     })
+
+// console.log(result);
 
 // Example: [10,'true',false]
-// Result: [20, "true is string", "false is falsy value"]
+// Result: [20, "true is string", "false is falsy value"]        
 
         
 
 // 2.Sum all numbers of arr4
+
+//  let sum1 = 0
+// arr4.map(item => {
+//     if (typeof item === "number") { 
+//         return sum1 += item 
+//     }
+
+// }) 
+//     console.log(sum1);
+
 // 3.Count only the values that are true
+
+// const trueValues = arr4.filter(item => item === true).map(item => 'true');
+// console.log(trueValues);
+ 
+ 
 // 4.Count only the values that are string
+    // const stringsV = arr4.filter(item => typeof item === "string").map(item => item)
+    // console.log(stringsV);
+
 // 5.Count only the values that are false
+    // const falseValues = arr4.filter(item => item === false).map(item => 'false');
+    // console.log(falseValues);
 
 
 ////////////// TASK 10 //////////////
